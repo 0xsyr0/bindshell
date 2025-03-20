@@ -32,16 +32,22 @@ A little project to dig into socket programming.
 ```
 
 ## Compile
-```c
-gcc bindshell.c -o bindshell
+
+```console
+$ gcc bindshell.c -o bindshell
 ```
+
 ## Usage
+
 Server
-```c
-chmod +x bindshell
-./bindshell
+
+```console
+$ chmod +x bindshell
+$ ./bindshell
 ```
+
 Client
-```c
-nc -nv 127.0.0.1 9001
+
+```console
+$ nc -nv 127.0.0.1 9001
 ```
